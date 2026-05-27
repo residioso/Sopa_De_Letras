@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Sopa de Letras</title>
+</head>
+
+<body>
+    <div class="contenedor">
+
+        <div class="panel-juego">
+
+            <h1>🔎 SOPA DE LETRAS</h1>
+
+            <div id="sopa-grid"></div>
+
+        </div>
+
+        <div class="panel-lateral">
+
+            <h2>Buscar palabra</h2>
+            <div id="marcador">Puntos: 0</div>
+            <input type="text" id="palabraInput" placeholder="Escribe una palabra y pulsa ENTER">
+
+            <h2> No encontradas</h2>
+
+            <ul id="listaNoExiste"></ul>
+
+            <div class="info">
+
+                <h2> Palabras ocultas</h2>
+
+                <!-- <div class="palabras">
+                    <span>TEXTO</span>
+                    <span>DATOS</span>
+                    <span>CLAVE</span>
+                    <span>VALOR</span>
+                    <span>INDEX</span>
+                    <span>ARRAY</span>
+                    <span>OBJETO</span>
+                    <span>FUNCION</span>
+                    <span>VARIABLE</span>
+                    <span>CONSTANTE</span>
+                </div>-->
+
+                <p style="margin-top:15px;">
+                    Encuentra las 10 palabras ocultas.
+                    Cuando las descubras todas aparecerá el mensaje de victoria.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
