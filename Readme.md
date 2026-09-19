@@ -14,4 +14,4 @@ Sopa de Letras es una aplicación web desarrollada con HTML, CSS y JavaScript qu
 - CSS3
 - JavaScript
 
-Autor: Francisco Javier Córdoba Rubio 1º de DAW para view next
+Autor: Francisco Javier Córdoba Rubio 1º de DAW 
